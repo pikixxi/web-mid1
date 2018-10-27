@@ -52,3 +52,26 @@ input{
     font-family: 'Lora', serif;
     font-size: 12px;
 }
+
+.Reklama{
+    display: flex;
+    padding:  30px 8%;
+    justify-content: space-between;
+}
+
+
+.logo{
+    width: 240px;
+    height: 70px;
+    background-image: url(/img/logo.png);
+    background-position: center;
+    background-size: auto;
+}
+.reclama{
+    width: 750px;
+    height: 90px;
+    background-image: url(/img/reclama.gif);
+    background-position: center;
+    background-size: cover;
+}
+
