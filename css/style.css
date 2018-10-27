@@ -2,12 +2,14 @@ body{
     font-family: 'Lora', serif;
     margin: 0;
 }
+
 nav{
     display: flex;
     background-color: #04132d;
     padding: 0 8%;
     color: #fff;
     align-items: center;
+
 }
 .megaphone{
     display: flex;
@@ -26,7 +28,7 @@ nav{
     font-size: 14px;
 }
 .run-row{
-    width: 590px;
+    width: 580px;
 }
 form{
     margin: 0 20px 0 10px;
@@ -72,6 +74,83 @@ input{
     height: 90px;
     background-image: url(/img/reclama.gif);
     background-position: center;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    border-top: 1px solid #939393;
+    padding: 0 8%;
+    color: #939393;
+    
+}
+.navbar div{
+    padding: 20px 0;
+}
+.navbar div:hover{
+    border-top: 2px solid #04132d;
+} 
+.navbar a{
+    text-decoration: none;
+    color: #939393;
+    margin: 10px;
+}
+.sub-news{
+    display: none;
+    max-width: 200px;
+    line-height: 1.5;
+    position: absolute;
+    background-color: #fff;
+}
+.news:hover .sub-news{
+    display:block;
+}
+
+.newspaper{
+    background-color: #04132d;
+    padding: 0 8%;
+    display: flex;
+    color: #fff;
+    font-size: 22px;
+}
+.newspaper p{
+    margin: 0;
+}
+
+.image1{
+    width: 60%;
+    height: 600px;
+    background-image: url(/img/посол.jpg);
+    background-position:center;
+    background-size: cover;
+}
+
+.image1:active{
+    background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(4, 19, 45, 0.5) ), url('/img/back/home-back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.news-para{
+    
+}
+.news-para:active{
+    display: block;
+}
+.image3{
+    width: 450px;
+    height: 300px;
+    background-image: url(/img/food.png);
+    background-position:center;
+    background-size: cover;
+}
+.image4{
+    width: 450px;
+    height: 300px;
+    background-image: url(/img/Lor.jpg);
+    background-position:center;
     background-size: cover;
 }
 
